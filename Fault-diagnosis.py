@@ -1,5 +1,8 @@
-from pyknow import *
+# -*- coding: utf-8 -*-
 
+from pyknow import *
+import os.path
+import sys
 fault_list = []
 fault_list_symptoms = []
 fault_map = {}
@@ -8,23 +11,23 @@ d_solutions_map = {}
 
 def preprocess():
 	global fault_list,fault_list_symptoms,fault_map,d_desc_map,d_solutions_map
-	fault = open("Fault-diagnosis/faults.txt")
+	fault = open("faults.txt", encoding="utf-8")
 	fault_t = fault.read()
 	fault_list = fault_t.split("\n")
 	fault.close()
 	for fault in fault_list:
-		fault_s_file = open("Fault-diagnosis/Fault-symptoms/" + fault + ".txt")
+		fault_s_file = open("Fault-symptoms/" + fault + ".txt", encoding="utf-8")
 		fault_s_data = fault_s_file.read()
 		s_list = fault_s_data.split("\n")
 		fault_list_symptoms.append(s_list)
 		fault_map[str(s_list)] = fault
   		
 		fault_s_file.close()
-		fault_s_file = open("Fault-diagnosis/Fault-descriptions/" + fault + ".txt")
+		fault_s_file = open("Fault-descriptions/" + fault + ".txt",encoding="utf-8")
 		fault_s_data = fault_s_file.read()
 		d_desc_map[fault] = fault_s_data
 		fault_s_file.close()
-		fault_s_file = open("Fault-diagnosis/Fault-solutions/" + fault + ".txt")
+		fault_s_file = open("Fault-solutions/" + fault + ".txt",encoding="utf-8")
 		fault_s_data = fault_s_file.read()
 		d_solutions_map[fault] = fault_s_data
   		
@@ -161,7 +164,7 @@ class Greetings(KnowledgeEngine):
 
 	@Rule(Fact(action='find_fault'),Fact(motor="no"),Fact(direksiyon="no"),Fact(yağ="no"),Fact(fren="no"),Fact(lastik="no"),Fact(pedal="no"),Fact(şanzıman="yes"),Fact(yakıt="no"),Fact(egzoz="no"),Fact(ısınma="no"),Fact(elektrik="no"),Fact(valf="yes"),Fact(kesinti="yes"))
 	def fault_8(self):
-		self.declare(Fact(fault="ValfArızası"))
+		self.declare(Fact(fault="ValfArizasi"))
 
 	@Rule(Fact(action='find_fault'),Fact(motor="yes"),Fact(direksiyon="no"),Fact(yağ="no"),Fact(fren="no"),Fact(lastik="no"),Fact(pedal="no"),Fact(şanzıman="no"),Fact(yakıt="no"),Fact(egzoz="no"),Fact(ısınma="no"),Fact(elektrik="no"),Fact(valf="yes"),Fact(kesinti="yes"))
 	def fault_9(self):

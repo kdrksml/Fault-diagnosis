@@ -1,12 +1,12 @@
 AküArızaları
 ElektrikselAriza
-Fren_Balata_Arızası"
+Fren_Balata_Arızası
 Rot_Başı_Problemi
 SensörArızaları
 SigortaProblemleri
 SogutmaSistemiArizasi
 Süspansiyon_Arızası
-ValfArızası
+ValfArizasi
 YakıtEnjektörlerininTıkanması
 YakıtFiltresiArızalari
 YakıtPompasıArızaları
