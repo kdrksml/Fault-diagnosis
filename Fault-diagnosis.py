@@ -51,128 +51,130 @@ def if_not_matched(fault):
 		fault_details = get_details(id_fault)
 		solutions = get_solutions(id_fault)
 		print("")
-		print("The most probable fault that you have is %s\n" %(id_fault))
-		print("A short description of the fault is given below :\n")
+		print("Muhtemel arızanız :  %s\n" %(id_fault))
+		print("Arıza hakkında genel bilgi aşağıdadır :\n")
 		print(fault_details+"\n")
-		print("The common medications and procedures suggested by other real doctors are: \n")
+		print("Bu konuda yapılabilecekler şu şekildedir :  \n")
 		print(solutions+"\n")
 
 # @my_decorator is just a way of saying just_some_function = my_decorator(just_some_function)
-#def identify_fault(headache, back_pain, chest_pain, cough, fainting, sore_throat, fatigue, restlessness,low_body_temp ,fever,sunken_eyes):
+#def identify_fault(motor, direksiyon, yağ, fren, lastik, pedal, şanzıman, yakıt,egzoz ,ısınma,elektrik):
 class Greetings(KnowledgeEngine):
 	@DefFacts()
 	def _initial_action(self):
 		print("")
-		print("Hi! I am Dr.Yar, I am here to help you make your health better.")
-		print("For that you'll have to answer a few questions about your conditions")
-		print("Do you feel any of the following symptoms:")
-		print("")
+		print("Merhaba ! , ")
+		print("Aracınızda bulunan semptomplara evet veya hayır diyerek uzman sistemimizin çalıştırabilirsiniz")
+		print("Araçta aşağıdaki semptomlar var mı")
+		print("Var ise evet yok ise hayır yazınız.")
+		print
+		("")
 		yield Fact(action="find_fault")
 
 
-	@Rule(Fact(action='find_fault'), NOT(Fact(headache=W())),salience = 1)
+	@Rule(Fact(action='find_fault'), NOT(Fact(motor=W())),salience = 1)
 	def symptom_0(self):
-		self.declare(Fact(headache=input("headache: ")))
+		self.declare(Fact(motor=input("Motor çalıştırıldığında herhangi bir anormal ses duyuluyor mu?: ")))
 
-	@Rule(Fact(action='find_fault'), NOT(Fact(back_pain=W())),salience = 1)
+	@Rule(Fact(action='find_fault'), NOT(Fact(direksiyon=W())),salience = 1)
 	def symptom_1(self):
-		self.declare(Fact(back_pain=input("back pain: ")))
+		self.declare(Fact(direksiyon=input("Direksiyonu çevirdiğinizde herhangi bir zorluk yaşıyor musunuz?: ")))
 
-	@Rule(Fact(action='find_fault'), NOT(Fact(chest_pain=W())),salience = 1)
+	@Rule(Fact(action='find_fault'), NOT(Fact(yağ=W())),salience = 1)
 	def symptom_2(self):
-		self.declare(Fact(chest_pain=input("chest pain: ")))
+		self.declare(Fact(yağ=input("Motor yağı seviyesi düşüyor veya aşırıya mı çıkıyor?: ")))
 
-	@Rule(Fact(action='find_fault'), NOT(Fact(cough=W())),salience = 1)
+	@Rule(Fact(action='find_fault'), NOT(Fact(fren=W())),salience = 1)
 	def symptom_3(self):
-		self.declare(Fact(cough=input("cough: ")))
+		self.declare(Fact(fren=input("Fren pedalını bıraktığınızda fren lambaları hala yanıyor mu?: ")))
 
-	@Rule(Fact(action='find_fault'), NOT(Fact(fainting=W())),salience = 1)
+	@Rule(Fact(action='find_fault'), NOT(Fact(lastik=W())),salience = 1)
 	def symptom_4(self):
-		self.declare(Fact(fainting=input("fainting: ")))
+		self.declare(Fact(lastik=input("Lastiklerde herhangi bir aşınma, çatlaklık veya şişkinlik var mı?: ")))
 
-	@Rule(Fact(action='find_fault'), NOT(Fact(fatigue=W())),salience = 1)
+	@Rule(Fact(action='find_fault'), NOT(Fact(şanzıman=W())),salience = 1)
 	def symptom_5(self):
-		self.declare(Fact(fatigue=input("fatigue: ")))
+		self.declare(Fact(şanzıman=input("Şanzımanın geçişleri sırasında ani bir sarsıntı hissediliyor mu?: ")))
 	 
-	@Rule(Fact(action='find_fault'), NOT(Fact(sunken_eyes=W())),salience = 1)
+	@Rule(Fact(action='find_fault'), NOT(Fact(elektrik=W())),salience = 1)
 	def symptom_6(self):
-		self.declare(Fact(sunken_eyes=input("sunken eyes: ")))
+		self.declare(Fact(elektrik=input("Aracın elektrik sistemi ile ilgili herhangi bir sorun yaşıyor musunuz? (farlar, sinyal lambaları, radyo vb.): ")))
 	
-	@Rule(Fact(action='find_fault'), NOT(Fact(low_body_temp=W())),salience = 1)
+	@Rule(Fact(action='find_fault'), NOT(Fact(egzoz=W())),salience = 1)
 	def symptom_7(self):
-		self.declare(Fact(low_body_temp=input("low body temperature: ")))
+		self.declare(Fact(egzoz=input("Egzozdan herhangi bir anormal duman çıkıyor mu?: ")))
 	
-	@Rule(Fact(action='find_fault'), NOT(Fact(restlessness=W())),salience = 1)
+	@Rule(Fact(action='find_fault'), NOT(Fact(yakıt=W())),salience = 1)
 	def symptom_8(self):
-		self.declare(Fact(restlessness=input("restlessness: ")))
+		self.declare(Fact(yakıt=input("Yakıt tüketimi normalden daha yüksek mi?: ")))
 	
-	@Rule(Fact(action='find_fault'), NOT(Fact(sore_throat=W())),salience = 1)
+	@Rule(Fact(action='find_fault'), NOT(Fact(pedal=W())),salience = 1)
 	def symptom_9(self):
-		self.declare(Fact(sore_throat=input("sore throat: ")))
+		self.declare(Fact(pedal=input(
+			"Fren pedalını sertleştirerek basmam gerekiyor mu?: ")))
 	
-	@Rule(Fact(action='find_fault'), NOT(Fact(fever=W())),salience = 1)
+	@Rule(Fact(action='find_fault'), NOT(Fact(ısınma=W())),salience = 1)
 	def symptom_10(self):
-		self.declare(Fact(fever=input("fever: ")))
+		self.declare(Fact(ısınma=input("Aracın ısınması normalden daha uzun sürüyor mu? ")))
 
-	@Rule(Fact(action='find_fault'), NOT(Fact(nausea=W())),salience = 1)
+	@Rule(Fact(action='find_fault'), NOT(Fact(valf=W())),salience = 1)
 	def symptom_11(self):
-		self.declare(Fact(nausea=input("Nausea: ")))
+		self.declare(Fact(valf=input(
+			"Aracınız çalışırken valf sesleri normalden daha yüksek mi? ")))
 
-	@Rule(Fact(action='find_fault'), NOT(Fact(blurred_vision=W())),salience = 1)
+	@Rule(Fact(action='find_fault'), NOT(Fact(kesinti=W())),salience = 1)
 	def symptom_12(self):
-		self.declare(Fact(blurred_vision=input("blurred_vision: ")))
+		self.declare(Fact(kesinti=input(
+			"Aracınızda hızlanma sırasında ya da seyir halindeyken motor gücünde aniden düşme veya kesintiler yaşıyor musunuz? ")))
 
-	@Rule(Fact(action='find_fault'),Fact(headache="no"),Fact(back_pain="no"),Fact(chest_pain="no"),Fact(cough="no"),Fact(fainting="no"),Fact(sore_throat="no"),Fact(fatigue="yes"),Fact(restlessness="no"),Fact(low_body_temp="no"),Fact(fever="yes"),Fact(sunken_eyes="no"),Fact(nausea="yes"),Fact(blurred_vision="no"))
+	@Rule(Fact(action='find_fault'),Fact(motor="no"),Fact(direksiyon="no"),Fact(yağ="no"),Fact(fren="no"),Fact(lastik="no"),Fact(pedal="no"),Fact(şanzıman="yes"),Fact(yakıt="no"),Fact(egzoz="no"),Fact(ısınma="yes"),Fact(elektrik="no"),Fact(valf="yes"),Fact(kesinti="no"))
 	def fault_0(self):
-		self.declare(Fact(fault="Jaundice"))
+		self.declare(Fact(fault="AküArızaları"))
 
-	@Rule(Fact(action='find_fault'),Fact(headache="no"),Fact(back_pain="no"),Fact(chest_pain="no"),Fact(cough="no"),Fact(fainting="no"),Fact(sore_throat="no"),Fact(fatigue="no"),Fact(restlessness="yes"),Fact(low_body_temp="no"),Fact(fever="no"),Fact(sunken_eyes="no"),Fact(nausea="no"),Fact(blurred_vision="no"))
+	@Rule(Fact(action='find_fault'),Fact(motor="no"),Fact(direksiyon="no"),Fact(yağ="no"),Fact(fren="no"),Fact(lastik="no"),Fact(pedal="no"),Fact(şanzıman="no"),Fact(yakıt="yes"),Fact(egzoz="no"),Fact(ısınma="no"),Fact(elektrik="no"),Fact(valf="no"),Fact(kesinti="no"))
 	def fault_1(self):
-		self.declare(Fact(fault="Alzheimers"))
+		self.declare(Fact(fault="ElektrikselAriza"))
 
-	@Rule(Fact(action='find_fault'),Fact(headache="no"),Fact(back_pain="yes"),Fact(chest_pain="no"),Fact(cough="no"),Fact(fainting="no"),Fact(sore_throat="no"),Fact(fatigue="yes"),Fact(restlessness="no"),Fact(low_body_temp="no"),Fact(fever="no"),Fact(sunken_eyes="no"),Fact(nausea="no"),Fact(blurred_vision="no"))
+	@Rule(Fact(action='find_fault'),Fact(motor="no"),Fact(direksiyon="yes"),Fact(yağ="no"),Fact(fren="no"),Fact(lastik="no"),Fact(pedal="no"),Fact(şanzıman="yes"),Fact(yakıt="no"),Fact(egzoz="no"),Fact(ısınma="no"),Fact(elektrik="no"),Fact(valf="no"),Fact(kesinti="no"))
 	def fault_2(self):
-		self.declare(Fact(fault="Arthritis"))
+		self.declare(Fact(fault="Fren_Balata_Arızası"))
 
-	@Rule(Fact(action='find_fault'),Fact(headache="no"),Fact(back_pain="no"),Fact(chest_pain="yes"),Fact(cough="yes"),Fact(fainting="no"),Fact(sore_throat="no"),Fact(fatigue="no"),Fact(restlessness="no"),Fact(low_body_temp="no"),Fact(fever="yes"),Fact(sunken_eyes="no"),Fact(nausea="no"),Fact(blurred_vision="no"))
+	@Rule(Fact(action='find_fault'),Fact(motor="no"),Fact(direksiyon="no"),Fact(yağ="yes"),Fact(fren="yes"),Fact(lastik="no"),Fact(pedal="no"),Fact(şanzıman="no"),Fact(yakıt="no"),Fact(egzoz="no"),Fact(ısınma="yes"),Fact(elektrik="no"),Fact(valf="no"),Fact(kesinti="no"))
 	def fault_3(self):
-		self.declare(Fact(fault="Tuberculosis"))
+		self.declare(Fact(fault="Rot_Başı_Problemi"))
 
-	@Rule(Fact(action='find_fault'),Fact(headache="no"),Fact(back_pain="no"),Fact(chest_pain="yes"),Fact(cough="yes"),Fact(fainting="no"),Fact(sore_throat="no"),Fact(fatigue="no"),Fact(restlessness="yes"),Fact(low_body_temp="no"),Fact(fever="no"),Fact(sunken_eyes="no"),Fact(nausea="no"),Fact(blurred_vision="no"))
+	@Rule(Fact(action='find_fault'),Fact(motor="no"),Fact(direksiyon="no"),Fact(yağ="yes"),Fact(fren="yes"),Fact(lastik="no"),Fact(pedal="no"),Fact(şanzıman="no"),Fact(yakıt="yes"),Fact(egzoz="no"),Fact(ısınma="no"),Fact(elektrik="no"),Fact(valf="no"),Fact(kesinti="no"))
 	def fault_4(self):
-		self.declare(Fact(fault="Asthma"))
+		self.declare(Fact(fault="SensörArızaları"))
 
-	@Rule(Fact(action='find_fault'),Fact(headache="yes"),Fact(back_pain="no"),Fact(chest_pain="no"),Fact(cough="yes"),Fact(fainting="no"),Fact(sore_throat="yes"),Fact(fatigue="no"),Fact(restlessness="no"),Fact(low_body_temp="no"),Fact(fever="yes"),Fact(sunken_eyes="no"),Fact(nausea="no"),Fact(blurred_vision="no"))
+	@Rule(Fact(action='find_fault'),Fact(motor="yes"),Fact(direksiyon="no"),Fact(yağ="no"),Fact(fren="yes"),Fact(lastik="no"),Fact(pedal="yes"),Fact(şanzıman="no"),Fact(yakıt="no"),Fact(egzoz="no"),Fact(ısınma="yes"),Fact(elektrik="no"),Fact(valf="no"),Fact(kesinti="no"))
 	def fault_5(self):
-		self.declare(Fact(fault="Sinusitis"))
+		self.declare(Fact(fault="SigortaProblemleri"))
 
-	@Rule(Fact(action='find_fault'),Fact(headache="no"),Fact(back_pain="no"),Fact(chest_pain="no"),Fact(cough="no"),Fact(fainting="no"),Fact(sore_throat="no"),Fact(fatigue="yes"),Fact(restlessness="no"),Fact(low_body_temp="no"),Fact(fever="no"),Fact(sunken_eyes="no"),Fact(nausea="no"),Fact(blurred_vision="no"))
+	@Rule(Fact(action='find_fault'),Fact(motor="no"),Fact(direksiyon="no"),Fact(yağ="no"),Fact(fren="no"),Fact(lastik="no"),Fact(pedal="no"),Fact(şanzıman="yes"),Fact(yakıt="no"),Fact(egzoz="no"),Fact(ısınma="no"),Fact(elektrik="no"),Fact(valf="no"),Fact(kesinti="no"))
 	def fault_6(self):
-		self.declare(Fact(fault="Epilepsy"))
+		self.declare(Fact(fault="SogutmaSistemiArizasi"))
 
-	@Rule(Fact(action='find_fault'),Fact(headache="no"),Fact(back_pain="no"),Fact(chest_pain="yes"),Fact(cough="no"),Fact(fainting="no"),Fact(sore_throat="no"),Fact(fatigue="no"),Fact(restlessness="no"),Fact(low_body_temp="no"),Fact(fever="no"),Fact(sunken_eyes="no"),Fact(nausea="yes"),Fact(blurred_vision="no"))
+	@Rule(Fact(action='find_fault'),Fact(motor="no"),Fact(direksiyon="no"),Fact(yağ="yes"),Fact(fren="no"),Fact(lastik="no"),Fact(pedal="no"),Fact(şanzıman="no"),Fact(yakıt="no"),Fact(egzoz="no"),Fact(ısınma="no"),Fact(elektrik="no"),Fact(valf="yes"),Fact(kesinti="no"))
 	def fault_7(self):
-		self.declare(Fact(fault="Heart fault"))
+		self.declare(Fact(fault="Süspansiyon_Arızası"))
 
-	@Rule(Fact(action='find_fault'),Fact(headache="no"),Fact(back_pain="no"),Fact(chest_pain="no"),Fact(cough="no"),Fact(fainting="no"),Fact(sore_throat="no"),Fact(fatigue="yes"),Fact(restlessness="no"),Fact(low_body_temp="no"),Fact(fever="no"),Fact(sunken_eyes="no"),Fact(nausea="yes"),Fact(blurred_vision="yes"))
+	@Rule(Fact(action='find_fault'),Fact(motor="no"),Fact(direksiyon="no"),Fact(yağ="no"),Fact(fren="no"),Fact(lastik="no"),Fact(pedal="no"),Fact(şanzıman="yes"),Fact(yakıt="no"),Fact(egzoz="no"),Fact(ısınma="no"),Fact(elektrik="no"),Fact(valf="yes"),Fact(kesinti="yes"))
 	def fault_8(self):
-		self.declare(Fact(fault="Diabetes"))
+		self.declare(Fact(fault="ValfArızası"))
 
-	@Rule(Fact(action='find_fault'),Fact(headache="yes"),Fact(back_pain="no"),Fact(chest_pain="no"),Fact(cough="no"),Fact(fainting="no"),Fact(sore_throat="no"),Fact(fatigue="no"),Fact(restlessness="no"),Fact(low_body_temp="no"),Fact(fever="no"),Fact(sunken_eyes="no"),Fact(nausea="yes"),Fact(blurred_vision="yes"))
+	@Rule(Fact(action='find_fault'),Fact(motor="yes"),Fact(direksiyon="no"),Fact(yağ="no"),Fact(fren="no"),Fact(lastik="no"),Fact(pedal="no"),Fact(şanzıman="no"),Fact(yakıt="no"),Fact(egzoz="no"),Fact(ısınma="no"),Fact(elektrik="no"),Fact(valf="yes"),Fact(kesinti="yes"))
 	def fault_9(self):
-		self.declare(Fact(fault="Glaucoma"))
+		self.declare(Fact(fault="YakıtEnjektörlerininTıkanması"))
 
-	@Rule(Fact(action='find_fault'),Fact(headache="no"),Fact(back_pain="no"),Fact(chest_pain="no"),Fact(cough="no"),Fact(fainting="no"),Fact(sore_throat="no"),Fact(fatigue="yes"),Fact(restlessness="no"),Fact(low_body_temp="no"),Fact(fever="no"),Fact(sunken_eyes="no"),Fact(nausea="yes"),Fact(blurred_vision="no"))
+	@Rule(Fact(action='find_fault'),Fact(motor="no"),Fact(direksiyon="no"),Fact(yağ="no"),Fact(fren="no"),Fact(lastik="no"),Fact(pedal="no"),Fact(şanzıman="yes"),Fact(yakıt="no"),Fact(egzoz="no"),Fact(ısınma="no"),Fact(elektrik="no"),Fact(valf="yes"),Fact(kesinti="no"))
 	def fault_10(self):
-		self.declare(Fact(fault="Hyperthyroidism"))
+		self.declare(Fact(fault="YakıtFiltresiArızalari"))
 
-	@Rule(Fact(action='find_fault'),Fact(headache="yes"),Fact(back_pain="no"),Fact(chest_pain="no"),Fact(cough="no"),Fact(fainting="no"),Fact(sore_throat="no"),Fact(fatigue="no"),Fact(restlessness="no"),Fact(low_body_temp="no"),Fact(fever="yes"),Fact(sunken_eyes="no"),Fact(nausea="yes"),Fact(blurred_vision="no"))
+	@Rule(Fact(action='find_fault'),Fact(motor="yes"),Fact(direksiyon="no"),Fact(yağ="no"),Fact(fren="no"),Fact(lastik="no"),Fact(pedal="no"),Fact(şanzıman="no"),Fact(yakıt="no"),Fact(egzoz="no"),Fact(ısınma="yes"),Fact(elektrik="no"),Fact(valf="yes"),Fact(kesinti="no"))
 	def fault_11(self):
-		self.declare(Fact(fault="Heat Stroke"))
+		self.declare(Fact(fault="YakıtPompasıArızaları"))
 
-	@Rule(Fact(action='find_fault'),Fact(headache="no"),Fact(back_pain="no"),Fact(chest_pain="no"),Fact(cough="no"),Fact(fainting="yes"),Fact(sore_throat="no"),Fact(fatigue="no"),Fact(restlessness="no"),Fact(low_body_temp="yes"),Fact(fever="no"),Fact(sunken_eyes="no"),Fact(nausea="no"),Fact(blurred_vision="no"))
-	def fault_12(self):
-		self.declare(Fact(fault="Hypothermia"))
 
 	@Rule(Fact(action='find_fault'),Fact(fault=MATCH.fault),salience = -998)
 	def fault(self, fault):
@@ -181,37 +183,37 @@ class Greetings(KnowledgeEngine):
 		fault_details = get_details(id_fault)
 		solutions = get_solutions(id_fault)
 		print("")
-		print("The most probable fault that you have is %s\n" %(id_fault))
-		print("A short description of the fault is given below :\n")
+		print("Muhtemel problem : %s\n" %(id_fault))
+		print("Arızanın tanımı:  :\n")
 		print(fault_details+"\n")
-		print("The common medications and procedures suggested by other real doctors are: \n")
+		print("Bu arıza için yapabilecekleriniz: \n")
 		print(solutions+"\n")
 
 	@Rule(Fact(action='find_fault'),
-		  Fact(headache=MATCH.headache),
-		  Fact(back_pain=MATCH.back_pain),
-		  Fact(chest_pain=MATCH.chest_pain),
-		  Fact(cough=MATCH.cough),
-		  Fact(fainting=MATCH.fainting),
-		  Fact(sore_throat=MATCH.sore_throat),
-		  Fact(fatigue=MATCH.fatigue),
-		  Fact(low_body_temp=MATCH.low_body_temp),
-		  Fact(restlessness=MATCH.restlessness),
-		  Fact(fever=MATCH.fever),
-		  Fact(sunken_eyes=MATCH.sunken_eyes),
-		  Fact(nausea=MATCH.nausea),
-		  Fact(blurred_vision=MATCH.blurred_vision),NOT(Fact(fault=MATCH.fault)),salience = -999)
+		  Fact(motor=MATCH.motor),
+		  Fact(direksiyon=MATCH.direksiyon),
+		  Fact(yağ=MATCH.yağ),
+		  Fact(fren=MATCH.fren),
+		  Fact(lastik=MATCH.lastik),
+		  Fact(pedal=MATCH.pedal),
+		  Fact(şanzıman=MATCH.şanzıman),
+		  Fact(egzoz=MATCH.egzoz),
+		  Fact(yakıt=MATCH.yakıt),
+		  Fact(ısınma=MATCH.ısınma),
+		  Fact(elektrik=MATCH.elektrik),
+		  Fact(valf=MATCH.valf),
+		  Fact(kesinti=MATCH.kesinti),NOT(Fact(fault=MATCH.fault)),salience = -999)
 
-	def not_matched(self,headache, back_pain, chest_pain, cough, fainting, sore_throat, fatigue, restlessness,low_body_temp ,fever ,sunken_eyes ,nausea ,blurred_vision):
+	def not_matched(self,motor, direksiyon, yağ, fren, lastik, pedal, şanzıman, yakıt,egzoz ,ısınma ,elektrik ,valf ,kesinti):
 		print("\nDid not find any fault that matches your exact symptoms")
-		lis = [headache, back_pain, chest_pain, cough, fainting, sore_throat, fatigue, restlessness,low_body_temp ,fever ,sunken_eyes ,nausea ,blurred_vision]
+		lis = [motor, direksiyon, yağ, fren, lastik, pedal, şanzıman, yakıt,egzoz ,ısınma ,elektrik ,valf ,kesinti]
 		max_count = 0
 		max_fault = ""
 		for key,val in fault_map.items():
 			count = 0
 			temp_list = eval(key)
 			for j in range(0,len(lis)):
-				if(temp_list[j] == lis[j] and lis[j] == "yes"):
+				if(temp_list[j] == lis[j] and lis[j] == "evet"):
 					count = count + 1
 			if count > max_count:
 				max_count = count
@@ -225,7 +227,7 @@ if __name__ == "__main__":
 	while(1):
 		engine.reset()  # Prepare the engine for the execution.
 		engine.run()  # Run it!
-		print("Would you like to diagnose some other symptoms?")
-		if input() == "no":
+		print("Başka bir arızayı kontrol etmek ister misiniz?")
+		if input() == "hayır":
 			exit()
 		#print(engine.facts)
