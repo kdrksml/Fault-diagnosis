@@ -1,39 +1,11 @@
-Patients with type 1 diabetes will need to take insulin injections for the rest of their life. They must also ensure proper blood-glucose levels by carrying out regular blood tests and following a special diet.
+Akü arızalarının çözümü genellikle aşağıdaki adımları içerir:
 
-Type 2 patients need to eat healthily, be physically active, and test their blood glucose. They may also need to take oral medication, and/or insulin to control blood glucose levels.
+Şarj Edilmesi: Zayıf veya boşalmış bir akü, genellikle şarj edilerek düzeltilebilir. Bir akü şarj cihazı kullanarak aküyü şarj etmek, akünün tekrar yeterli gücü elde etmesini sağlayabilir. Şarj işlemi, akünün özelliklerine ve cihazın talimatlarına uygun olarak yapılmalıdır.
 
-Treatment for type 1 diabetes includes:
+Terminal Bağlantılarının Kontrol Edilmesi: Akünün terminalleri üzerinde korozyon veya gevşek bağlantılar olabilir. Bu durumda terminaller temizlenmeli ve sıkı bir şekilde bağlantıları yapılmalıdır. Korozyon için bir temizlik maddesi veya kabartma soda kullanılabilir.
 
-Taking insulin
-Carbohydrate, fat and protein counting
-Frequent blood sugar monitoring
-Eating healthy foods
-Exercising regularly and maintaining a healthy weight
+Akü Sıvı Seviyesinin Kontrol Edilmesi: Bazı konvansiyonel akülerde, sıvı elektrolit seviyesi düşebilir. Eğer akünün kapakları açılabilirse, elektrolit seviyesi kontrol edilmeli ve gerekiyorsa distile su eklenmelidir. Ancak bazı akülerde kapaklar açılamaz ve bu durumda akünün değiştirilmesi gerekebilir.
 
-Types of insulin are many and include:
+Şarj Sistemi Kontrolü: Akü arızalarının nedeni bazen aracın şarj sistemiyle ilgili olabilir. Alternatör veya regülatör gibi bileşenlerin doğru şekilde çalışıp çalışmadığı kontrol edilmelidir. Şarj sistemi arızaları durumunda, aracın bir otomotiv uzmanı tarafından incelenmesi ve gerekli onarımların yapılması gerekebilir.
 
-Short-acting (regular) insulin
-Rapid-acting insulin
-Intermediate-acting (NPH) insulin
-Long-acting insulin
-
-Other Medications:
-
-High blood pressure medications
-Aspirin
-Cholesterol-lowering drugs
-
-Treatment for type 2 diabetes includes:
-
-Healthy eating
-Regular exercise
-Possibly, diabetes medication or insulin therapy
-Blood sugar monitoring
-
-Examples of possible treatments for type 2 diabetes include:
-
-Metformin (Glucophage, Glumetza, others)
-Sulfonylureas
-Meglitinides
-Thiazolidinediones
-Insulin therapy
+Akünün Değiştirilmesi: Bazı durumlarda, akü tamir edilemez veya ömrünü tamamlamış olabilir. Bu durumda akü tamamen değiştirilmelidir. Yeni bir akü, aracın gereksinimlerine uygun olarak seçilmeli ve takılmalıdır.
