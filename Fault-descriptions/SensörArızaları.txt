@@ -1,0 +1,11 @@
+Sensör arızaları, araçlardaki sensörlerin doğru çalışmaması veya yanlış bilgiler sağlaması durumunda meydana gelen sorunlardır. 
+
+Sensörler, aracın çeşitli sistemlerinin (motor, emisyon, fren, hava-yakıt karışımı vb.) doğru şekilde çalışmasını sağlamak için elektrik sinyalleriyle bilgi toplarlar.
+
+Motor Sensör Arızaları: Motorun performansını ve emisyon düzeylerini kontrol eden birçok sensör bulunur. 
+
+Fren Sensör Arızaları: ABS (Anti-Lock Braking System) gibi fren sistemleri, tekerlek hızı sensörleri kullanarak frenleme işlemini kontrol eder.
+
+Vites Sensör Arızaları: Otomatik şanzımanlı araçlarda vites sensörleri, vites değişimlerini ve şanzımanın doğru şekilde çalışmasını kontrol eder. 
+
+Yakıt Seviye Sensörü Arızaları: Yakıt seviye sensörü, aracın yakıt tankındaki yakıt seviyesini ölçer. 
