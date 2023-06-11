@@ -1,0 +1,3 @@
+Motorun soğutma sistemi arızalandığında, motorun aşırı ısınması ve aşırı sıcaklık nedeniyle zarar görmesi riski vardır.
+Örneğin, su pompasının arızalanması, soğutma sistemindeki sızıntılar veya termostatın düzgün çalışmaması gibi sorunlar soğutma sistemine zarar verebilir.
+Bu durumda motorun aşırı ısınması, radyatördeki suyun kaynaması veya motorda termal bozulmalar gibi belirtiler görülebilir.
