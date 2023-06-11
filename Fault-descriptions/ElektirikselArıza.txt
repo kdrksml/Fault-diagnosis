@@ -1,0 +1,3 @@
+Motorun elektriksel bileşenlerinde meydana gelen arızalar, motorun çalışmasını etkileyebilir.
+Örneğin, ateşleme bobini arızalandığında, ateşleme sistemi doğru şekilde çalışmayabilir ve motorun ateşleme zamanlaması bozulabilir.
+Ayrıca, motor kontrol ünitesi (ECU) veya sensörler gibi elektriksel bileşenlerde yaşanan arızalar da motor performansını etkileyebilir.
