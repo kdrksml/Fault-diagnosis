@@ -2,10 +2,9 @@ Sensör arızaları, araçlardaki sensörlerin doğru çalışmaması veya yanl�
 
 Sensörler, aracın çeşitli sistemlerinin (motor, emisyon, fren, hava-yakıt karışımı vb.) doğru şekilde çalışmasını sağlamak için elektrik sinyalleriyle bilgi toplarlar.
 
-Motor Sensör Arızaları: Motorun performansını ve emisyon düzeylerini kontrol eden birçok sensör bulunur. Örneğin, hava akış sensörü (MAF), yakıt enjeksiyon sensörleri, oksijen sensörü (O2 sensörü), gaz kelebeği konum sensörü vb. Bu sensörlerin yanlış okuma yapması veya arızalanması durumunda, motor performansı etkilenebilir, yakıt verimliliği düşebilir ve emisyon değerleri artabilir.
+Motor Sensör Arızaları: Motorun performansını ve emisyon düzeylerini kontrol eden birçok sensör bulunur. 
 
-Fren Sensör Arızaları: ABS (Anti-Lock Braking System) gibi fren sistemleri, tekerlek hızı sensörleri kullanarak frenleme işlemini kontrol eder. Tekerlek hız sensörlerindeki arızalar, fren sistemi arızalarına ve frenlerin yanlış şekilde çalışmasına neden olabilir. Örneğin, ABS ışığı yanabilir ve fren pedalı titremeleri oluşabilir.
+Fren Sensör Arızaları: ABS (Anti-Lock Braking System) gibi fren sistemleri, tekerlek hızı sensörleri kullanarak frenleme işlemini kontrol eder.
+Vites Sensör Arızaları: Otomatik şanzımanlı araçlarda vites sensörleri, vites değişimlerini ve şanzımanın doğru şekilde çalışmasını kontrol eder. 
 
-Vites Sensör Arızaları: Otomatik şanzımanlı araçlarda vites sensörleri, vites değişimlerini ve şanzımanın doğru şekilde çalışmasını kontrol eder. Vites sensörlerinin yanlış sinyal göndermesi veya arızalanması durumunda, araç yanlış vites seçebilir, vites değişimleri düzensiz olabilir veya şanzıman sorunları ortaya çıkabilir.
-
-Yakıt Seviye Sensörü Arızaları: Yakıt seviye sensörü, aracın yakıt tankındaki yakıt seviyesini ölçer. Sensördeki arızalar, yanlış yakıt seviyesi göstergesi veya hatalı yakıt seviyesi uyarılarına neden olabilir.
+Yakıt Seviye Sensörü Arızaları: Yakıt seviye sensörü, aracın yakıt tankındaki yakıt seviyesini ölçer. 
