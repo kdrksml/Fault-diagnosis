@@ -1,0 +1,7 @@
+Rot başı problemi, otomobilin ön tekerleklerinin dönerken titremesi veya sarsılması durumunu ifade eder. 
+
+Bu durum genellikle tekerleklerin rot başlarında meydana gelen aşınma veya hasar nedeniyle ortaya çıkar. 
+
+Rot başı, tekerleklerin dönme hareketini sağlayan bir bileşendir ve tekerleklerin direksiyon hareketine 
+
+uyumlu şekilde dönmesini sağlar.

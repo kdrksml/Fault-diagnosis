@@ -1,9 +1,9 @@
 Jaundice
 Alzheimers
 Arthritis
-Tuberculosis
-Asthma
-Sinusitis
+Fren Balata Arızası
+Süspansiyon Arızası 
+Rot Başı Problemi
 Epilepsy
 Heart Disease
 Diabetes

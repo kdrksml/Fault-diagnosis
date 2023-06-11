@@ -1,0 +1,5 @@
+Süspansiyon sistemi, aracın tekerleklerini ve şasiyi birbirine bağlayan bir dizi bileşenden oluşur. 
+
+Bu sistem, aracın sarsıntıları emmesini, yolu takip etmesini, sürüş konforunu arttırmasını ve yol 
+
+tutuşunu sağlamasını sağlar.
