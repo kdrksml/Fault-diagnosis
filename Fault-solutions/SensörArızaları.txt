@@ -1,26 +1,11 @@
-Treatment with medications or sometimes surgery can control seizures for the majority of people with epilepsy.
+Sensör arızalarının çözümünde genellikle kullanılan bazı yöntemler:
 
-Some people require lifelong treatment to control seizures, but for others, the seizures eventually go away. Some children with epilepsy may outgrow the condition with age.
+Sensör Temizliği: Sensörler zamanla kir, yağ veya birikintilerle kirlenebilir. Bu durumda, sensörün temizlenmesi sorunu çözebilir. Sensörün doğru şekilde temizlenmesi için uygun temizlik maddeleri ve yöntemler kullanılmalıdır. Daha sonra sensör tekrar takılıp çalışması test edilmelidir.
 
-Medication:
+Bağlantı Kontrolü: Sensörlerin doğru çalışması, sağlam bir bağlantıya ihtiyaç duyar. Gevşek bağlantılar, kesintiler veya korozyon, sensör arızalarına neden olabilir. Bu nedenle, sensör bağlantı noktalarının kontrol edilmesi ve gerektiğinde temizlenmesi veya sıkıştırılması önemlidir.
 
-Epilepsy medications, sometimes called anti-seizure or anticonvulsant medications, change the way your brain cells work and send messages to each other.
+Sensör Ayarı: Bazı sensörlerin doğru şekilde çalışabilmesi için ayarlamaya ihtiyaçları olabilir. Örneğin, gaz kelebeği konum sensörü veya vites sensörü gibi sensörler, doğru ayarlamalarla doğru sinyalleri verebilir. Bu ayarlar genellikle özel teşhis ekipmanları ve bilgiye ihtiyaç duyar.
 
-The kind of medication depends on:
+Sensör Değişimi: Bazı durumlarda, arızalı sensörlerin tamir edilmesi mümkün olmayabilir ve değiştirilmesi gerekebilir. Aracın marka ve modeline uygun yeni bir sensörün seçilmesi ve doğru şekilde takılması önemlidir. Yeni sensörün çalışması test edilmeli ve gerekli durumlarda ayarlamalar yapılmalıdır.
 
-The type of seizures
-Frequency of seizures
-Age
-Sex
-Other medical conditions
-
-General Medications are:
-
-Carbamazepine (Tegretol or Carbatrol)
-Divalproex (depakote, Depakote ER)
-Diazepam (Valium and similar tranquilizers)
-Ethosuximide (Zarontin)
-Phenytoin (Dilantin or Phenytek)
-Phenobarbital
-Primidone (Mysoline)
-Valproic acid (Depakene)
+Elektriksel Kontrol: Sensör arızalarının bazen temel bir elektriksel sorundan kaynaklandığı olabilir. Bu durumda, araçtaki genel elektrik sistemleri kontrol edilmeli ve sorunlu bileşenler veya kablolar tespit edilmelidir.
