@@ -1,2 +1,13 @@
 Akü arızaları, araç başlatma sorunlarına, güç kaybına veya elektrik kesintilerine neden olabilir.
+
 Akü plakalarının aşınması, bağlantıların gevşemesi veya akünün ömrünün tamamlanması gibi faktörler bu tür arızalara yol açabilir.
+
+Zayıf Akü: Zamanla akülerin kapasitesi azalabilir ve yeterli güç sağlayamaz hale gelebilir. Bu durumda araç zor başlar veya başlamaz. 
+
+Boş Akü: Eğer araç uzun süre kullanılmazsa veya içinde enerji tüketen sistemler (örneğin, farlar, radyo) uzun süre açık kalırsa, akü boşalabilir. Boş bir akü, aracın başlatılmasını engeller ve aracın gücünü sağlayamaz.
+
+Akü Sıvı Seviyesi: Konvansiyonel akülerde, sıvı elektroliti düzeyinin düşmesi akü performansını etkileyebilir. Sıvı seviyesi düşükse, akü yeterli asit seviyesini sağlayamaz ve doğru şekilde şarj olamaz.
+
+Korozyon veya Bağlantı Sorunları: Akü terminalleri üzerinde oluşan korozyon veya gevşek bağlantılar, akünün elektrik akışını engelleyebilir. Bu da aracın başlatılmasını veya güç sağlamasını zorlaştırabilir.
+
+Şarj Sistemi Arızaları: Aküyü şarj eden alternatör veya regülatör gibi bileşenlerdeki arızalar, akünün yeterli şekilde şarj olmasını engelleyebilir. Bu durumda akü sürekli olarak zayıf kalır ve aracın başlatılmasını veya çalışmasını etkiler.
