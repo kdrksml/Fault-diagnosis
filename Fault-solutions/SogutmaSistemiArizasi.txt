@@ -1,5 +1,3 @@
-Soğutma sistemi arızaları, motorun aşırı ısınmasına ve zarar görmesine neden olabilir. İşte soğutma sistemi arızalarının potansiyel çözümlerinden bazıları:
-
 1. Radyatör Temizliği:
    - Radyatör, motorun aşırı ısınmasını önlemek için ısıyı dağıtan önemli bir bileşendir.
    - Radyatörün dış kısmı zamanla kir, böcekler, yapraklar veya diğer döküntülerle tıkanabilir.
