@@ -1,4 +1,3 @@
-
 1. Valf Ayarı:
    - Valf açılma ve kapanma zamanlamasının doğru şekilde ayarlanması önemlidir.
    - Valf açılma ve kapanma süreleri, valf ayar cihazları kullanılarak kontrol edilebilir ve gerektiğinde ayarlamalar yapılabilir.
