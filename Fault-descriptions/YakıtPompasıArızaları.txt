@@ -1,25 +1,13 @@
-Jaundice is a term used to describe a yellowish tinge to the skin and the whites of the eye. Body fluids may also be yellow.
+Yakıt pompası arızası, bir aracın yakıt sistemine ait önemli bir bileşen olan yakıt pompasının işlevlerini yerine getirememesi durumunda ortaya çıkar. Yakıt pompası, yakıt deposundan yakıtı çekerek enjektör veya karbüratöre taşır. Bu nedenle, yakıt pompasının doğru bir şekilde çalışması aracın düzgün bir şekilde yakıt almasını sağlar.
 
-The color of the skin and whites of the eyes will vary depending on levels of bilirubin. Bilirubin is a waste material found in the blood. 
+Yakıt pompası arızalarının birkaç olası nedeni vardır:
 
-Moderate levels lead to a yellow color, while very high levels will appear brown.
-An inflamed liver or obstructed bile duct can lead to jaundice, as well as other underlying conditions.
+Motor çalışmıyor: Yakıt pompasının motor tarafından tahrik edilen bir parçası varsa, bu parçada meydana gelen bir arıza yakıt pompasının çalışmasını engelleyebilir. Örneğin, kırılan bir kayış veya elektrik motoru arızası yakıt pompasını etkileyebilir.
 
-Underlying conditions that may cause jaundice include:
+Yakıt pompası elektrik arızası: Modern araçlarda, yakıt pompası genellikle elektrik motoruyla çalışır. Elektrik arızaları, pompaya giden güç akışının kesilmesine veya zayıflamasına neden olabilir. Bunun nedeni, bir elektrik kablosunun kopması, bir sigortanın yanması veya bir rölenin arızalanması olabilir.
 
-Acute inflammation of the liver: This may impair the ability of the liver to conjugate and secrete bilirubin, resulting in a buildup.
+Yakıt pompası tıkanması: Yakıt pompası içindeki filtreler veya vanalar zamanla kirlenebilir veya tıkanabilir. Bu durumda, yakıt pompası yakıtı yeterince çekemez veya itemez, bu da aracın yakıt alımını etkiler.
 
-Inflammation of the bile duct: This can prevent the secretion of bile and removal of bilirubin, causing jaundice.
+Yakıt pompası aşınması veya yıpranması: Yakıt pompası sürekli olarak çalıştığından, zamanla aşınma veya yıpranma meydana gelebilir. Bu durumda, pompadaki contalar zayıflayabilir veya pompadaki diğer parçalar bozulabilir.
 
-Obstruction of the bile duct: This prevents the liver from disposing of bilirubin.
-Hemolytic anemia: The production of bilirubin increases when large quantities of red blood cells are broken down.
-
-Gilbert's syndrome: This is an inherited condition that impairs the ability of enzymes to process the excretion of bile.
-
-Cholestasis: This interrupts the flow of bile from the liver. The bile containing conjugated bilirubin remains in the liver instead of being excreted.
-
-Diagnosis:
-
-The yellowing of skin and eyes are likely to be the main clues a doctor will use before confirming a jaundice diagnosis.
-
-A physical examination will be carried out to look for signs of swelling of the liver and legs, ankles or feet, which might indicate cirrhosis of the liver.
+Yakıt pompası arızaları aracın yakıt alımını engelleyebilir veya yetersiz hale getirebilir. Bu durumda araç performansı düşebilir, motor sık sık boğulabilir veya tamamen durabilir. Eğer aracınızda yakıt pompası arızası olduğundan şüpheleniyorsanız, bir otomobil servisine başvurmanız ve profesyonel bir inceleme yaptırmanız önemlidir.
