@@ -1,13 +1,12 @@
-Jaundice
-Alzheimers
-Arthritis
-Fren Balata Arızası
-Süspansiyon Arızası 
-Rot Başı Problemi
-Epilepsy
-Heart Disease
-Diabetes
-Glaucoma
-Hyperthyroidism
-Heat Stroke
-Hypothermia
+AküArızaları
+ElektrikselAriza
+Fren_Balata_Arızası"
+Rot_Başı_Problemi
+SensörArızaları
+SigortaProblemleri
+SogutmaSistemiArizasi
+Süspansiyon_Arızası
+ValfArızası
+YakıtEnjektörlerininTıkanması
+YakıtFiltresiArızalari
+YakıtPompasıArızaları
