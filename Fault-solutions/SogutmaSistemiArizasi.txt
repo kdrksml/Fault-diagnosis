@@ -1,0 +1,24 @@
+1. Radyatör Temizliği:
+   - Radyatör, motorun aşırı ısınmasını önlemek için ısıyı dağıtan önemli bir bileşendir.
+   - Radyatörün dış kısmı zamanla kir, böcekler, yapraklar veya diğer döküntülerle tıkanabilir.
+   - Radyatör temizlenmeli ve tıkanıklıklar giderilmelidir.
+   - Bu işlem, soğutma sisteminin etkinliğini artırarak motorun daha iyi soğutulmasını sağlar.
+
+2. Termostat Kontrolü:
+   - Termostat, motorun çalışma sıcaklığını kontrol eden bir parçadır.
+   - Termostat arızalandığında, motorun aşırı ısınması veya soğuması gibi sorunlar oluşabilir.
+   - Arızalı termostatın değiştirilmesi gerekebilir.
+   - Yeni bir termostatın takılması, motorun uygun çalışma sıcaklığını korumasını sağlar.
+
+3. Su Pompası Değişimi:
+   - Su pompası, soğutma sıvısını motorun etrafında dolaştırarak ısıyı dağıtır.
+   - Su pompası arızalandığında, soğutma sıvısının dolaşımı etkilenir ve motorun aşırı ısınması olabilir.
+   - Arızalı su pompasının değiştirilmesi gerekebilir.
+   - Yeni bir su pompasının takılması, soğutma sıvısının düzgün dolaşımını sağlar.
+
+4. Soğutma Sıvısı Seviyesinin Kontrolü:
+   - Soğutma sisteminin düzgün çalışması için doğru seviyede soğutma sıvısı (antifriz) önemlidir.
+   - Soğutma sıvısı eksikse veya kirlenmişse, motor aşırı ısınabilir.
+   - Soğutma sıvısının seviyesi ve kalitesi düzenli olarak kontrol edilmeli ve gerektiğinde tamamlanmalı veya değiştirilmelidir.
+
+Bu çözümler, tipik soğutma sistemi arızaları için genel olarak uygulanabilir olup, sorunun türüne ve şiddetine bağlı olarak değişebilir. Karmaşık arızalar veya büyük onarımlar durumunda, uzman bir otomotiv teknisyenine başvurmanız önemlidir. Uzman sistemler, soğutma sistemi arızalarının teşhisi ve çözüm önerileri konusunda rehberlik sağlayabilir, ancak fiziksel müdahale ve tamirat işlemleri genellikle uzmanlık gerektirir.

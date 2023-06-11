@@ -1,0 +1,9 @@
+Sigorta problemleri, araçlardaki elektrik sistemlerinde meydana gelen aşırı yüklenme veya kısa devre gibi durumlarda sigortaların devreyi kesmesi veya yanmasıyla ortaya çıkan sorunlardır.
+
+Sigorta Atması: Sigortalar, elektrik devresindeki aşırı akımı veya kısa devreleri tespit ederek devreyi korurlar.
+
+Sigorta Yanması: Aşırı yüklenme veya sürekli kısa devreler, sigortaların yanmasına neden olabilir. 
+
+Yanlış Sigorta Boyutu: Her elektrik devresi veya bileşen için belirli bir amperaj değeri gereken sigortalar kullanılmalıdır. 
+
+Sigorta Bağlantı Sorunları: Sigortaların doğru şekilde takılmaması veya gevşek bağlantıları, sigorta problemlerine neden olabilir. 

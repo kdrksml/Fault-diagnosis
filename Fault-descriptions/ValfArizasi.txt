@@ -1,0 +1,3 @@
+Valf sistemleri, egzoz gazının dışarı çıkmasını ve temiz hava-yakıt karışımının silindire girmesini kontrol eder.
+Valflerin düzgün açılıp kapanmaması veya sızdırması durumunda motor performansı olumsuz etkilenebilir.
+Valf yaylarının zayıflaması, valf saplarının kırılması veya valf koltuklarının aşınması gibi nedenler valf arızasına yol açabilir.sis.

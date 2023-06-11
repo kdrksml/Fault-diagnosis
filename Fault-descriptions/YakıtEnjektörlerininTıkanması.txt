@@ -1,0 +1,11 @@
+Yakıt enjektörleri, benzinli motorlarda yakıtın silindirlere doğru püskürtülmesini sağlayan önemli bileşenlerdir. Yakıt enjektörlerinin tıkanması, enjektörlerin içerisindeki yakıt akışını engelleyen veya kısıtlayan bir durumu ifade eder. Bu durum, araç performansını etkileyebilir ve motorun düzgün çalışmasını engelleyebilir. İşte yakıt enjektörlerinin tıkanmasına neden olan bazı faktörler:
+
+Kirli yakıt: Yakıt sistemi içerisindeki kir, tortu, pas veya diğer yabancı maddeler zamanla enjektörlerin içinde birikebilir. Bu birikintiler, enjektörlerin püskürtme deliklerini tıkayarak yakıt akışını engeller. Kirli yakıt kullanımı veya yakıt sistemi filtrelerinin düzenli olarak değiştirilmemesi bu soruna yol açabilir.
+
+Yanlış yakıt kullanımı: Yanlış yakıt kullanımı da enjektörlerin tıkanmasına neden olabilir. Örneğin, aracın gerektirdiği oktan değeri farklı olan yakıtın kullanılması durumunda enjektörlerde birikintiler oluşabilir.
+
+Yakıt kalitesi: Düşük kaliteli yakıtın kullanılması, içerisinde daha fazla kir, su veya katkı maddesi bulunan yakıtın enjektörlerde birikmesine neden olabilir. Bu da tıkanmalara yol açabilir.
+
+Yanlış enjektör temizliği veya bakımı: Enjektörlerin düzenli olarak temizlenmemesi veya bakımının ihmal edilmesi, birikintilerin enjektörlerde oluşmasına ve tıkanmalara yol açabilir. Yanlış temizlik yöntemleri veya uygun olmayan temizlik maddeleri de enjektörlerin zarar görmesine neden olabilir.
+
+Tıkanmış yakıt enjektörleri, motorun düzgün çalışmasını etkileyebilir ve aşağıdaki sorunlara yol açabilir: düşük güç, düzensiz çalışma, titreme, zor çalışma, yakıt tüketiminde artış, egzoz emisyonlarında artış.

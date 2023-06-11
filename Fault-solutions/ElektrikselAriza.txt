@@ -1,0 +1,26 @@
+1. Pil Kontrolü:
+   - Motorun çalışması için gereken enerjiyi sağlayan pilin durumu önemlidir.
+   - Pil zayıf veya boşsa, motorun çalışması etkilenebilir veya tamamen durabilir.
+   - Pilin şarj seviyesi ve sağlamlığı kontrol edilmeli ve gerektiğinde değiştirilmelidir.
+
+2. Sigorta Kontrolleri:
+   - Sigortalar, elektrik devrelerini aşırı akımlara karşı korur.
+   - Arızalı veya yanmış sigortalar, belirli elektriksel bileşenlerin çalışmasını engelleyebilir.
+   - Sigortaların kontrol edilmesi ve gerektiğinde değiştirilmesi önemlidir.
+
+3. Kablolama Kontrolü:
+   - Elektriksel arızaların nedeni bazen kablolardaki bağlantı kopmaları veya hasarlı kablolar olabilir.
+   - Kablolama sistemi gözden geçirilmeli ve kopukluklar, gevşek bağlantılar veya yıpranmış kablolar tespit edilmelidir.
+   - Hasarlı kablolar değiştirilmeli ve bağlantılar yeniden sağlamlaştırılmalıdır.
+
+4. Sensör Kontrolleri:
+   - Elektrikli bileşenlerin doğru çalışması için sensörlerin sağlam ve doğru çalışması gereklidir.
+   - Arızalı veya yanlış okuma yapan sensörler, motorun performansını olumsuz etkileyebilir.
+   - Sensörlerin kontrol edilmesi ve gerektiğinde değiştirilmesi önemlidir.
+
+5. Elektrikli Bileşenlerin Test Edilmesi:
+   - Elektrikli bileşenler, ateşleme sistemi, yakıt enjeksiyonu, marş motoru vb. gibi motorun çalışması için önemli rol oynar.
+   - Arızalı bir bileşen, motorun düzgün çalışmasını engelleyebilir.
+   - Elektrikli bileşenlerin test edilmesi ve gerektiğinde onarılması veya değiştirilmesi gerekebilir.
+
+Elektriksel arızaların teşhis ve çözümü, genellikle uzmanlık gerektiren bir alandır. Uzman bir otomotiv teknisyeninin müdahalesi gerekebilir. Uzman sistemler, elektriksel arızaların teşhisi ve çözüm önerileri konusunda rehberlik sağlayabilir, ancak elektriksel bileşenlerin fiziksel müdahale veya tamiri genellikle uzmanlık gerektirir.
